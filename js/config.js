@@ -11,21 +11,22 @@ const PORTFOLIO_CONFIG = {
     name: "Ricardo Villarreal Muñoz",
     shortName: "Ricardo Villarreal",
     initials: "RVM",
-    tagline: "Música en Vivo & Experiencias Sonoras para Eventos Exclusivos",
-    role: "Músico Profesional · Intérprete & Showman para Eventos",
+    tagline: "Bajista Profesional de 6 Cuerdas & Experiencias Sonoras para Eventos Exclusivos",
+    role: "Bajista Profesional · Especialista en Bajo de 6 Cuerdas para Eventos",
     location: "Chile · Disponible para eventos en todo el país",
     experienceYears: "+10",
     eventsCount: "+250",
     satisfaction: "100%",
     bio: [
-      "Ricardo Villarreal Muñoz es un músico profesional con amplia trayectoria en la ambientación musical y espectáculos en vivo para matrimonios, eventos corporativos, cenas de gala y celebraciones privadas.",
-      "Su propuesta combina elegancia escénica, calidad interpretativa y un repertorio versátil que se adapta a cada momento del evento: desde una atmósfera íntima y emotiva para ceremonias o cócteles, hasta un show vibrante y cercano que conecta con invitados de todas las generaciones.",
-      "Cuenta con equipamiento de sonido profesional propio y formatos flexibles (solista o acompañamiento), garantizando puntualidad, excelencia acústica y una experiencia inolvidable para anfitriones e invitados."
+      "Ricardo Villarreal Muñoz es un bajista y músico profesional especializado en la ejecución del bajo eléctrico de 6 cuerdas, con amplia trayectoria en la ambientación musical y espectáculos en vivo para matrimonios, eventos corporativos, cenas de gala y celebraciones privadas.",
+      "El bajo de 6 cuerdas le permite abarcar un rango armónico y melódico extendido único, combinando notas graves profundas con melodías virtuosas de gran calidez, creando atmósferas envolventes tanto para cócteles íntimos como para shows estelares de alta energía.",
+      "Su propuesta escénica se caracteriza por el sonido pulcro, elegancia estética y un repertorio versátil adaptado a cada cliente, contando con sistema de amplificación y procesamiento propio de alta fidelidad para garantizar una experiencia acústica insuperable."
     ],
     technicalRider: [
+      "Bajo eléctrico boutique de 6 cuerdas (rango extendido) e instrumentación profesional",
       "Sistema de amplificación propio de alta fidelidad (adaptable hasta 200+ personas)",
-      "Micrófonos e instrumentación profesional de nivel estudio/escenario",
-      "Montaje limpio y estético acorde a eventos de gala y matrimonios",
+      "Procesamiento y pedalera de modelado acústico de nivel estudio/escenario",
+      "Montaje limpio, discreto y estético acorde a eventos de gala y matrimonios",
       "Tiempo de montaje y prueba de sonido: 45 a 60 minutos antes del evento",
       "Requerimiento mínimo en lugar: 1 toma de corriente 220V cercana al área de presentación"
     ]
@@ -80,17 +81,16 @@ const PORTFOLIO_CONFIG = {
   videos: [
     {
       id: "vid-1",
-      title: "Showreel Oficial — Música en Vivo para Eventos",
+      title: "Showreel Oficial — Solo de Bajo de 6 Cuerdas & Gala",
       category: "corporativos",
       categoryLabel: "Showreel Destacado",
-      description: "Resumen de presentaciones en vivo para recepciones, cenas de gala y eventos exclusivos.",
+      description: "Resumen de presentaciones en vivo para recepciones, cenas de gala y eventos exclusivos con bajo de 6 cuerdas.",
       type: "mp4",
       aspect: "16:9",
       featured: true,
       duration: "02:15",
-      // Puedes pegar aquí cualquier link directo .mp4 de Cloudinary (ej: https://res.cloudinary.com/tu-cloud/video/upload/v1/showreel.mp4)
       videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-musician-playing-acoustic-guitar-on-stage-41729-large.mp4",
-      posterUrl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80"
+      posterUrl: "images/six-string-bass-hero.jpg"
     },
     {
       id: "vid-2",
@@ -163,21 +163,21 @@ const PORTFOLIO_CONFIG = {
   photos: [
     {
       id: "photo-1",
-      title: "Presentación en Gala Nocturna",
-      category: "Escenario en Vivo",
-      url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80"
+      title: "Bajo Eléctrico de 6 Cuerdas — Detalle Boutique",
+      category: "Equipamiento",
+      url: "images/six-string-bass-hero.jpg"
     },
     {
       id: "photo-2",
-      title: "Recepción de Matrimonio al Aire Libre",
-      category: "Matrimonios",
-      url: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
+      title: "Presentación en Vivo en Gran Gala Nocturna",
+      category: "Escenario en Vivo",
+      url: "images/six-string-bass-live.jpg"
     },
     {
       id: "photo-3",
-      title: "Detalles & Sonido Profesional",
-      category: "Equipamiento",
-      url: "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1200&q=80"
+      title: "Recepción de Matrimonio al Aire Libre",
+      category: "Matrimonios",
+      url: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: "photo-4",
@@ -187,13 +187,13 @@ const PORTFOLIO_CONFIG = {
     },
     {
       id: "photo-5",
-      title: "Sesión Acústica en Estudio",
-      category: "Retrato Artístico",
-      url: "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?auto=format&fit=crop&w=1200&q=80"
+      title: "Atmósfera y Calidad Escénica",
+      category: "Escenario en Vivo",
+      url: "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1200&q=80"
     },
     {
       id: "photo-6",
-      title: "Show Principal para Celebraciones",
+      title: "Show Principal para Celebraciones Privadas",
       category: "Eventos Privados",
       url: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80"
     }
